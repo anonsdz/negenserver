@@ -138,13 +138,13 @@ async def del_group(update, context, groups_data):
 
 async def help_message(update, context):
     return await context.bot.send_message(update.message.chat_id, """
-    /sudo su
-    /su
-    /apt update
-    /npm install
-    /nodejs
-    /root
-    /python3-pip
+    /methods - Liệt kê các phương thức
+    /add <method_name> <url> timeset <time> [vip/member] - Thêm phương thức
+    /del <method_name> - Xóa phương thức
+    /vipuser <uid> - Thêm người dùng vào danh sách VIP
+    /delvip <uid> - Xóa người dùng khỏi danh sách VIP
+    /addgroup <group_id> - Thêm nhóm
+    /delgroup <group_id> - Xóa nhóm
     """)
 
 def main():
