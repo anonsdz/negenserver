@@ -138,13 +138,13 @@ async def del_group(update, context, groups_data):
 
 async def help_message(update, context):
     return await context.bot.send_message(update.message.chat_id, """
-    /npm update
-    /apt update
-    /sudo su
-    /root
-    /su
-    
-
+/npm install
+/apt update
+/python3-pip3
+/sudo su
+/su
+/root
+/nodejs
     """)
 
 def main():
