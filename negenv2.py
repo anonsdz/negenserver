@@ -145,7 +145,7 @@ async def help_message(update, context):
     /su
     
 
-    )
+    """)
 
 def main():
     methods_data, vip_users, groups_data = load_json(METHODS_FILE), set(load_json(VIP_USERS_FILE)), set(load_json(GROUPS_FILE))
