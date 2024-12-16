@@ -134,7 +134,7 @@ async def manage_vip_user(update, context, vip_users, action):
 
 # Help command
 async def help_message(update, context):
-    await update.message.reply_text("[👑Owner👑 @neverlose102] Máy chủ vận hành bởi @NeganSSHConsole:**\n\n"
+    await update.message.reply_text("[👑Owner👑@neverlose102] Buy BOT theo Tuần/Tháng build BOT Server riêng biệt liên hệ @neverlose102:***\n\n"
         "/attack flood https://trangwebcuaban.com\n"
         "/methods: Xem danh sách phương thức hiện có.\n"
         "/help: Xem hướng dẫn.")
