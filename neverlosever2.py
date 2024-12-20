@@ -7,7 +7,7 @@ from pytz import timezone
 from html import escape
 import os
 
-TOKEN, ADMIN_ID, GROUP_ID, VIP_USERS_FILE, METHODS_FILE, user_processes = '7927648440:AAHul8gxv5hqlaWshNjNEnSg_xgv75_h4tE', 6365140337, -1002494586692, 'vip_users.json', 'methods.json', {}
+TOKEN, ADMIN_ID, GROUP_ID, VIP_USERS_FILE, METHODS_FILE, user_processes = '7927648440:AAHul8gxv5hqlaWshNjNEnSg_xgv75_h4tE', 6365140337, -1002354250375, 'vip_users.json', 'methods.json', {}
 
 # Load and save JSON helpers
 def load_json(file): return json.load(open(file, 'r')) if os.path.exists(file) else (save_json(file, {}) or {})
