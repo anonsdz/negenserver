@@ -13,17 +13,14 @@ const NGUONG_RAM = 90;
 
 let soLanPkill = 0;  // Biến lưu số lần thực hiện pkill
 
-// Hàm thực thi pkill
+// Hàm thực thi pkill và cộng dồn số lần pkill
 const thucThiPkill = () => {
     const tienTrinh = ['flood', 'tlskill', 'bypass', 'killer'];
 
     tienTrinh.forEach((tienTrinhItem) => {
-        exec(`pkill -9 -f ${tienTrinhItem}`, (err) => {
+        exec(`pkill -f -9 ${tienTrinhItem}`, (err) => {
             if (!err) {
                 soLanPkill++;
-                console.log(`Đã thực thi pkill cho ${tienTrinhItem}`);
-            } else {
-                console.error(`Lỗi khi thực thi pkill cho ${tienTrinhItem}`);
             }
         });
     });
