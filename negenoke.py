@@ -10,8 +10,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler
 from pytz import timezone
 from html import escape
-
-TOKEN = '7770728691:AAFnFvQKVdLfdKiAu3o1gFN4hleR1CJmucg'
+#token của calva
+TOKEN = '7534359784:AAFLpxOQQrRf8SMCBycRT6BwCr5Cqf6g0xs'
 ADMIN_ID = 7371969470
 VIP_USERS_FILE, METHODS_FILE, GROUPS_FILE = 'vip_users.json', 'methods.json', 'groups.json'
 user_processes = {}
