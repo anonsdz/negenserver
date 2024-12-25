@@ -36,8 +36,8 @@ def monitor_system():
         else:
             print("Tài nguyên hệ thống ổn định.")
         
-        # Đợi 1 giây trước khi kiểm tra lại
-        time.sleep(1)
+        # Đợi 15 giây trước khi kiểm tra lại
+        time.sleep(15)
 
 if __name__ == "__main__":
     monitor_system()
