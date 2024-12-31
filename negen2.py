@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler
 from pytz import timezone
 from html import escape
 
-TOKEN = '7918986015:AAEHWgXP8_Ruv3F2DzFq3goYFGuaDzT3S4A'
+TOKEN = '7918986015:AAHkqD0MCpwC37DS4nX9SBCYwF_JHmxFqPg'
 ADMIN_ID = 7371969470
 VIP_USERS_FILE, METHODS_FILE, GROUPS_FILE = 'vip_users.json', 'methods.json', 'groups.json'
 user_processes = {}
