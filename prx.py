@@ -248,7 +248,7 @@ if __name__ == "__main__":
         # Bước 1: Lấy proxy từ các website và lưu vào proxy.txt
         save_proxies_to_file()
         # Bước 2: Kiểm tra các proxy sống từ proxy.txt
-        num_threads = 10000  # Giới hạn số lượng luồng (có thể điều chỉnh theo ý muốn)
+        num_threads = 1000  # Giới hạn số lượng luồng (có thể điều chỉnh theo ý muốn)
         check_live_proxies("proxy.txt", num_threads)
     except KeyboardInterrupt:
         print("Đang thoát... Vui lòng chờ một chút...")
